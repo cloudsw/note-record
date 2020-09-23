@@ -1,3 +1,4 @@
+
 ## GITHUB README TEST
 
 ```markdown
@@ -23,3 +24,6 @@ https://kcd.cloudxxx.xyz 超链接
 
 [超链接名称](www.google.com)
 
+<!--zhushi-->
+
+[www.google.com]: www.googe.com	"连接引用"
