@@ -4,7 +4,9 @@
 code block test
 ```
 
-www.google.com: link url test
+[name]: www.youtube.com	"title"
+
+
 
 > 引用测试
 >
@@ -22,8 +24,6 @@ https://kcd.cloudxxx.xyz 超链接
 `code tstdianda dafas`
 
 [超链接名称](www.google.com)
-
-<!--zhushi-->
 
 [www.google.com]: www.googe.com	"连接引用"
 [name]: www.google.com	"title"
