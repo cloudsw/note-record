@@ -29,6 +29,4 @@ dafdfd [www.google.com]()
 
 超链接名称www.google.com
 
-[www.google.com]: www.googe.com	"连接引用"
-[name]: www.google.com	"title"
-
+www.google.com "连接引用"
