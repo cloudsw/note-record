@@ -4,18 +4,18 @@
 code block test
 ```
 
-------
-
-[link url test]: 	"link url title"
+[www.google.com]: 	"link url test"
 
 > 引用测试
+>
+> 
 
-
-
-引用测试
-
-[^shenme shi jiaozhu]: jiaozhu biaoshu
+[^脚注测试]: 脚注测试描述
 
 https://kcd.cloudxxx.xyz 超链接
 
-## second  de
+### edited by markdown
+
+> 引用测试
+
+段落测试
