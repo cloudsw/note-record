@@ -1,25 +1,20 @@
-First github record
-## this is github readme
-
-##### first 
-
-| caea |      |      |      |      |
-| :--: | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |
+## GITHUB README TEST
 
 ```
-wget https://github.com/note-taking
+code block test
 ```
-
-[https://kcd.cloudxxx.xyz]: 	"3D list"
-
-$$
-
-$$
-
-- dia
-- dian'
-- 
 
 ------
+
+[link url test]: 	"link url title"
+
+> 引用测试
+
+
+
+引用测试
+
+[TOC]
+
+https://kcd.cloudxxx.xyz 超链接
 
