@@ -5,7 +5,8 @@ code block test
 ```
 
 [name]: www.youtube.com	"title"
-[www.google.com]: 
+
+www.google.com
 
 jihun [cha](www.google.com)
 
