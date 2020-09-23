@@ -4,7 +4,7 @@
 code block test
 ```
 
-[www.google.com]: 	"link url test"
+www.google.com: link url test
 
 > 引用测试
 >
@@ -19,6 +19,7 @@ https://kcd.cloudxxx.xyz 超链接
 
 段落测试 
 
-`code tst`
+`code tstdianda dafas`
 
-[www.google.com](shuomingwezi) daidandina  [daindad](shuoming)
+[超链接名称](www.google.com)
+
