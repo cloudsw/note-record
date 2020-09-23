@@ -5,6 +5,7 @@ code block test
 ```
 
 [name]: www.youtube.com	"title"
+[www.google.com]: 
 
 
 
@@ -24,6 +25,8 @@ https://kcd.cloudxxx.xyz 超链接
 `code tstdianda dafas`
 
 [超链接名称](www.google.com)
+
+超链接名称www.google.com
 
 [www.google.com]: www.googe.com	"连接引用"
 [name]: www.google.com	"title"
