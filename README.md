@@ -12,7 +12,7 @@ code block test
 
 [^脚注测试]: 脚注测试描述
 
-https://kcd.cloudxxx.xyz 超链接
+www.google.com 超链接
 
 ### edited by markdown标题超链接
 
