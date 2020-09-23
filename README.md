@@ -7,14 +7,14 @@ code block test
 [name]: www.youtube.com	"title"
 [www.google.com]: 
 
+jihun [cha](www.google.com)
 
+dafdfd [www.google.com]()
 
 > 引用测试
 >
 
 [^脚注测试]: 脚注测试描述
-
-https://kcd.cloudxxx.xyz 超链接
 
 ### edited by markdown标题超链接
 
