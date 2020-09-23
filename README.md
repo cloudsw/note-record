@@ -1,6 +1,6 @@
 ## GITHUB README TEST
 
-```
+```markdown
 code block test
 ```
 
@@ -14,7 +14,7 @@ code block test
 
 引用测试
 
-[TOC]
+[^shenme shi jiaozhu]: jiaozhu biaoshu
 
 https://kcd.cloudxxx.xyz 超链接
 
