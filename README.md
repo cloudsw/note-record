@@ -1,32 +1,10 @@
-## GITHUB README TEST
+## NOTE
 
 ```markdown
-code block test
+Record every bit
 ```
 
-[name]: www.youtube.com	"title"
+> Record every bit
 
-www.google.com
+[Link reference]: www.github.com
 
-jihun [cha](www.google.com)
-
-dafdfd [www.google.com]()
-
-> 引用测试
->
-
-[^脚注测试]: 脚注测试描述
-
-### edited by markdown标题超链接
-
-> 引用测试
-
-段落测试 
-
-`code tstdianda dafas`
-
-[超链接名称](www.google.com)
-
-超链接名称www.google.com
-
-www.google.com "连接引用"
