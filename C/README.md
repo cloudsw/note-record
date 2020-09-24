@@ -1,17 +1,10 @@
-## GITHUB README TEST
+## C  Cases
 
 ```markdown
-code block test
+Edited by c
 ```
 
-[name]: www.youtube.com	"title"
+> Record every bit
 
-www.google.com
-
-jihun [cha](www.google.com)
-
-dafdfd [www.google.com]()
-
-> 引用测试
->
+`Record every bit`
 
