@@ -1,4 +1,4 @@
-## NOTE
+# NOTE
 
 ```markdown
 Record every bit
@@ -6,5 +6,5 @@ Record every bit
 
 > Record every bit
 
-[Link reference]: www.github.com
+Link reference: www.github.com
 
