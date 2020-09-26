@@ -37,23 +37,24 @@ void merge(int arr[], int L, int M, int R){//L,M,R为索引序列，从0开始�
         k++;
     }
 }
-//void merge_sort(int arr[], int L, int R){
-//    if (L == R){
-//        return;
-//    }
-//    else{
-//        int M = (L + R) / 2;
-//        merge_sort(arr, L, M);
-//        merge_sort(arr, M+1, R);
-//        merge(arr, L, M+1, R);
-//    }
-//}
+void merge_sort(int arr[], int L, int R){
+    if (L == R){
+        return;
+    }
+    else{
+        int M = (L + R) / 2;
+        merge_sort(arr, L, M);
+        merge_sort(arr, M+1, R);
+        merge(arr, L, M+1, R);
+    }
+}
 
 int main(){
     int list[] = {3, 5, 7, 9, 10, 1, 2, 4, 6, 8};
-    merge(list, 0, 5, 9);
-//    merge_sort(list, 0, 9);
-    for (int i = 0; i < 10; ++i) {
+    int L = 0;
+    int R = 9;
+    merge_sort(list, L, R);
+    for (int i = 0; i <=R; ++i) {
         printf("%d ", list[i]);
     }
     return 0;
