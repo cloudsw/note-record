@@ -20,7 +20,7 @@ def init(graph, s):     # 初始化距离，起始点设为零，其他点设为
     return distance
 
 
-def dijkstra(graph, s):     # 运行heapq库，可以方便的进行，最小的数的排序
+def dijkstra(graph, s):     # 运行heapq库，可以方便的进行最小数排序
     arr = []
     distance = init(graph, s)
     heapq.heappush(arr, (distance[s], s))
