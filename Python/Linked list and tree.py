@@ -9,6 +9,12 @@ class tree:
         self.lnext = None
         self.rnext = None
 
+class treenode:
+    def __init__(self, val=0, left=None, right=None):       # 初始化二叉树
+        self.val = val
+        self.left = left
+        self.right = right
+
 
 def show(tem):
     while tem:
@@ -22,5 +28,6 @@ if __name__ == "__main__":
     c = linked_node(3)
     a.next = b
     b.next = c
-
+    d = treenode()
+    print(d.val)
     show(a)
