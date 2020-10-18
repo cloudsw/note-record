@@ -5,7 +5,7 @@ class tree:
         self.right = None
 
 
-def Binary_Tree_Level_Order_Traversal_II(target):
+def Binary_Tree_Level_Order_Traversal_II(target):       # 利用BFS(结合队列)
     if not target:
         return []
     queue = []
