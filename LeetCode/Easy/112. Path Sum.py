@@ -12,8 +12,8 @@ def Path_Sum(root, sum):
     node.append(root)
     path.append(root.val)
     while node:
-        que_node = node.pop(0)
-        que_path = path.pop(0)
+        que_node = node.pop(0)      # 存放节点
+        que_path = path.pop(0)      # 存放当前节点到root节点的路径总和
         if not que_node.left and not que_node.right and que_path == sum:
             return True
         if que_node.left:
@@ -44,4 +44,5 @@ if __name__ == '__main__':
     d.right = h
     e.right = i
     print(Path_Sum(a, 22))
+
 
