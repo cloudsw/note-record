@@ -6,8 +6,7 @@ class treenode:
 
 
 def Find_Largest_Value_in_Each_Tree_Row(root, sum):
-    queue = []
-    queue.append(root)
+    queue = [root]
     while queue:
         tem = []
         tem_lenght = len(queue)
