@@ -25,7 +25,7 @@ def dijkstra(graph, s):     # 运行heapq库，可以方便的进行最小数排
     distance = init(graph, s)
     heapq.heappush(arr, (distance[s], s))
     parent = {s: None}
-    seen = set()
+    seen = set()        # 使用集合，去掉重复的顶点
 
     while len(arr) > 0:
         tem = heapq.heappop(arr)
