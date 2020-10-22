@@ -8,9 +8,8 @@ class tree:
 def Binary_Tree_Level_Order_Traversal_II(target):       # 利用BFS(结合队列)
     if not target:
         return []
-    queue = []
+    queue = [target]
     sum = []
-    queue.append(target)
     while queue:
         tem = []
         for _ in range(len(queue)):     # 此时queue的长度，用作后面queue.pop()取出的次数，就是树的一层的节点数
