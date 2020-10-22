@@ -4,11 +4,9 @@ class treenode:
         self.left = left
         self.right = right
 
+
 def fun(target):
-    arr = []
-    arr.append(target.val)
-    arr.append(target.left)
-    arr.append(target.right)
+    arr = [target.val, target.left, target.right]
     return arr
 
 
