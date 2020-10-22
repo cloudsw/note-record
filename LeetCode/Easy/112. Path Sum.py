@@ -7,10 +7,8 @@ class treenode:
 def Path_Sum(root, sum):
     if not root:
         return False
-    node = []
-    path = []
-    node.append(root)
-    path.append(root.val)
+    node = [root]
+    path = [root.val]
     while node:
         que_node = node.pop(0)      # 存放节点
         que_path = path.pop(0)      # 存放当前节点到root节点的路径总和
