@@ -11,8 +11,7 @@ def fun(sum):
         if tem[0] is None:
             tem.pop(0)
         else:
-            break
-    return tem[::-1]
+            return tem[::-1]
 
 
 def Check_Completeness_of_a_Binary_Tree(root, sum):
@@ -23,7 +22,6 @@ def Check_Completeness_of_a_Binary_Tree(root, sum):
             sum.append(None)
         else:
             sum.append(node.val)
-        if node:
             queue.append(node.left)
             queue.append(node.right)
     tem = fun(sum)
