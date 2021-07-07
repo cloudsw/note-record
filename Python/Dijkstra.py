@@ -54,5 +54,6 @@ if __name__ == '__main__':
     # print(parent)
     # print(distance)
     print("路径为：", end="")
+    print("test")
     for i in range(len(list1)):
         print(list1.pop(), end=" ")
