@@ -11,7 +11,7 @@ graph = {
 }
 
 
-def init(graph, s):     # 初始化距离，起始点设为零，其他点设为无穷
+def init(graph, s):  # 初始化距离，起始点设为零，其他点设为无穷
     distance = {s: 0}
     tem = graph.keys()
     for i in tem:
@@ -20,18 +20,18 @@ def init(graph, s):     # 初始化距离，起始点设为零，其他点设为
     return distance
 
 
-def dijkstra(graph, s):     # 运行heapq库，可以方便的进行最小数排序
+def dijkstra(graph, s):  # 运行heapq库，可以方便的进行最小数排序
     arr = []
     distance = init(graph, s)
     heapq.heappush(arr, (distance[s], s))
     parent = {s: None}
-    seen = set()        # 使用集合，去掉重复的顶点
+    seen = set()  # 使用集合，去掉重复的顶点
 
     while len(arr) > 0:
         tem = heapq.heappop(arr)
         dist = tem[0]
         vertex = tem[1]
-        seen.add(vertex)    # 访问完的点
+        seen.add(vertex)  # 访问完的点
         node = graph[vertex].keys()
         for w in node:
             if w not in seen:
@@ -48,7 +48,7 @@ if __name__ == '__main__':
     end = input("end point:")
     parent, distance = dijkstra(graph, start)
     print("从{}到{}的最短距离为：{}".format(start, end, distance[end]))
-    while end != None:
+    while end is not None:
         list1.append(end)
         end = parent[end]
     # print(parent)
