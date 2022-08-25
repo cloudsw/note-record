@@ -1,9 +1,3 @@
-# AcWing 795. 前缀和
-
-```java
-package com.wd;
-
-
 import java.io.*;
 
 public class Main {
@@ -32,10 +26,7 @@ public class Main {
         }
 
     }
-
+//一维前缀和
 
 
 }
-```
-
-一维前缀和

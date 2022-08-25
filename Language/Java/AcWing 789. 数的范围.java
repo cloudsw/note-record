@@ -1,9 +1,3 @@
-# AcWing 789. 数的范围
-
-```java
-package com.wd;
-
-
 import java.io.*;
 import java.util.ArrayList;
 
@@ -50,6 +44,4 @@ public class Main {
         return list;
     }
 }
-```
-
-整数二分搜索算法
+// 二分搜索算法，前提是顺序的序列
